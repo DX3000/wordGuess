@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arial';
+    font-size: 1.5em;
+    position: relative;
+    background: url("https://images6.alphacoders.com/309/thumb-1920-309637.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+}
+
+.space-out {
+    letter-spacing: 0.3em;
+    margin-right: -0.3em;
+}
+
+.header {
+    background-color: darkgrey;
+}
+
+#board {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    height: calc(100vh - 36px);
+    overflow: auto;
+}
+
+.game-board {
+    font-size: 3em;
+}
